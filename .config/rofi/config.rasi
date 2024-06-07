@@ -1,3 +1,5 @@
+/* vim:ft=css
+ */
 
 configuration {
 /*---- General setting ----*/
@@ -108,3 +110,18 @@ configuration {
 @theme "brassy"
 @import "format/main"
 
+/* configuration { */
+/*   lenvenshtein-sort: true; */
+/*   matching: "fuzzy"; */
+/*   modi: "window,drun,run,ssh"; */
+/*   show-icons: true; */
+/*   sorting-method: "fzf"; */
+/*   sort: true; */
+/*   dpi: 120; */
+/*   kb-remove-to-eol: ""; */
+/*   kb-accept-entry: "Control+m,Return,KP_Enter"; */
+/*   kb-row-up: "Up,Control+p,Control+k"; */
+/*   kb-row-down: "Down,Control+n,Control+j"; */
+/* } */
+/**/
+/* @theme "gruvbox-dark-soft" */

@@ -17,7 +17,7 @@ _rofi() {
 		-theme-str 'element-icon {enabled: false;}' \
 		-theme-str 'textbox {horizontal-align: 0;}' \
 		-dmenu -i -matching fuzzy -sorting-method fzf -width 1000 "$@" \
-		-sep $sep -eh 3
+		-sep $sep -eh 3 -multi-select
 }
 rofi_l() {
   rofi \

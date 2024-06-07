@@ -273,4 +273,6 @@ error-message {
     text-color:                  @fg-col;
 }
 
+/* vim:ft=css
+ */
 

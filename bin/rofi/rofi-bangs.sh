@@ -14,19 +14,10 @@ declare -A COMMANDS
 ###
 # List of defined 'bangs'
 
-COMMANDS["grub-reboot"]="rofi-grub-reboot"
-LABELS["grub-reboot"]=""
-
 # open bookmarks
-COMMANDS["bookmarks"]="rofi-bookmarks.sh"
+# COMMANDS["bookmarks"]="rofi-bookmarks.sh"
+COMMANDS["bookmarks"]="buku_run"
 LABELS["bookmarks"]=""
-
-# search local files
-COMMANDS["locate"]="rofi-locate.sh"
-LABELS["locate"]=""
-
-COMMANDS["files"]="rofi-files"
-LABELS["files"]=""
 
 # open custom web searches
 COMMANDS["websearch"]="rofi-surfraw-websearch.sh"
@@ -42,9 +33,19 @@ LABELS["pass"]=""
 COMMANDS["systemd"]="rofi-systemd"
 LABELS["systemd"]=""
 
-COMMANDS["json"]='rofi -modi config:"rofi-json.sh config.json","json:rofi-json.sh my_apps.json" -show json'
-# COMMANDS["json"]='rofi -modi "json:rofi-json.sh my_apps.json" -show json'
-LABELS["json"]=""
+COMMANDS["grub-reboot"]="rofi-grub-reboot"
+LABELS["grub-reboot"]=""
+
+# search local files
+COMMANDS["locate"]="rofi-locate.sh"
+LABELS["locate"]=""
+
+COMMANDS["files"]="rofi-files"
+LABELS["files"]=""
+
+# COMMANDS["json"]='rofi -modi config:"rofi-json.sh config.json","json:rofi-json.sh my_apps.json" -show json'
+# # COMMANDS["json"]='rofi -modi "json:rofi-json.sh my_apps.json" -show json'
+# LABELS["json"]=""
 
 # launch programs
 # COMMANDS["apps"]="rofi -combi-modi window,drun -show combi"
