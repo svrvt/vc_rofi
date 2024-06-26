@@ -15,6 +15,17 @@
 !/bin/rofi/rofi-locate.sh
 !/bin/rofi/rofi-surfraw-websearch.sh
 !/bin/rofi/rofi-systemd
+!/bin/surfraw/dmenu-surfraw-websearch.sh
+!/bin/surfraw/fzf-surfraw-websearch.sh
+!/bin/surfraw/newsboat_bookmarks_newsboat.sh
+!/bin/surfraw/newsboat_bookmarks_surfraw.sh
+!/bin/surfraw/rofi-surfraw-websearch.sh
+!/bin/tools/define-app
+!/bin/tools/greenclip
+!/bin/tools/run-desktop
+!/.config/nbrowser/bangs/ddg
+!/.config/nbrowser/config
+!/.config/nbrowser/engines/ddg
 !/.config/rofi/config.rasi
 !/.config/rofi/format/list_min.rasi
 !/.config/rofi/format/list.rasi
@@ -24,4 +35,7 @@
 !/.config/rofi/themes/gruvchad.rasi
 !/.config/rofi/themes/nord.rasi
 !/.config/rofi/themes/onedark.rasi
+!/.config/surfraw/bookmarks
+!/.config/surfraw/conf
 !/.gitignore.d/vc_rofi
+!/.local/share/applications/nbrowser.desktop
