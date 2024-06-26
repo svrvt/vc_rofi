@@ -39,3 +39,4 @@
 !/.config/surfraw/conf
 !/.gitignore.d/vc_rofi
 !/.local/share/applications/nbrowser.desktop
+!/.local/share/applications/run-desktop.desktop
