@@ -28,6 +28,9 @@
 !/bin/tools/greenclip
 !/bin/tools/run-desktop
 !/.config
+!/.config/mr
+!/.config/mr/available.d
+!/.config/mr/available.d/vc_rofi
 !/.config/nbrowser
 !/.config/nbrowser/bangs
 !/.config/nbrowser/bangs/ddg
