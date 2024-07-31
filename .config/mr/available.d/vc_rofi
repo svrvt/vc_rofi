@@ -1,4 +1,4 @@
-[~/.config/vcsh/repo.d/vc_rofi.git]
+[$HOME/.config/vcsh/repo.d/vc_rofi.git]
 checkout = vcsh clone https://github.com/svrvt/vc_rofi.git
 
 # vi: ft=ini syntax=sh
