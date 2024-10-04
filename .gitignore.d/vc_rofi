@@ -30,7 +30,8 @@
 !/.config
 !/.config/mr
 !/.config/mr/available.d
-!/.config/mr/available.d/vc_rofi
+!/.config/mr/available.d/vc
+!/.config/mr/available.d/vc/vc_rofi
 !/.config/nbrowser
 !/.config/nbrowser/bangs
 !/.config/nbrowser/bangs/ddg
