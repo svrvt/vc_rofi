@@ -1,4 +1,17 @@
 [$HOME/.config/vcsh/repo.d/vc_rofi.git]
 checkout = vcsh clone https://github.com/svrvt/vc_rofi.git
 
+[$HOME/src/build/pass-rofi-gui]
+checkout = git clone https://github.com/svrvt/pass-rofi-gui.git
+link = ln -svn $PWD $HOME/code/edit/pass-rofi-gui.link
+# build = cargo build release
+
+[$HOME/src/build/buku_run]
+checkout = git clone https://github.com/svrvt/buku_run.git
+link = ln -svn $PWD $HOME/code/edit/buku_run.link
+
+[$HOME/src/build/rofi-systemd]
+checkout = git clone https://github.com/svrvt/rofi-systemd.git
+link = ln -svn $PWD $HOME/code/edit/rofi-systemd.link
+
 # vi: ft=ini syntax=bash
