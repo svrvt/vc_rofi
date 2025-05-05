@@ -65,7 +65,7 @@ configuration {
 /*  combi-hide-mode-prefix: false;*/
 /*  combi-display-format: "{mode} {text}";*/
 
-/*---- History and Sorting ----*/
+/* ---- History and Sorting ---- */
     disable-history: false;
     sorting-method: "normal";
     max-history-size: 25;
