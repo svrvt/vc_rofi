@@ -30,7 +30,7 @@
 !/.config
 !/.config/mr
 !/.config/mr/available.d
-!/.config/mr/available.d/workflow.vc.rofi
+!/.config/mr/available.d/vc.rofi
 !/.config/nbrowser
 !/.config/nbrowser/bangs
 !/.config/nbrowser/bangs/ddg
