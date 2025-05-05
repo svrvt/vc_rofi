@@ -1,5 +1,10 @@
 *
 !/bin
+!/bin/desktop
+!/bin/desktop/define-app
+!/bin/desktop/run-desktop
+!/bin/old
+!/bin/old/greenclip
 !/bin/rofi
 !/bin/rofi/buku_run
 !/bin/rofi/config.json
@@ -24,9 +29,7 @@
 !/bin/surfraw/newsboat_bookmarks_surfraw.sh
 !/bin/surfraw/rofi-surfraw-websearch.sh
 !/bin/tools
-!/bin/tools/define-app
 !/bin/tools/greenclip
-!/bin/tools/run-desktop
 !/.config
 !/.config/mr
 !/.config/mr/available.d
