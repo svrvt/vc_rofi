@@ -19,15 +19,11 @@ declare -A COMMANDS
 COMMANDS["bookmarks"]="buku_run"
 LABELS["bookmarks"]=""
 
-# open custom web searches
-COMMANDS["websearch"]="rofi-surfraw-websearch.sh"
-LABELS["websearch"]=""
-
 #recordrofi
 COMMANDS["record"]="recordrofi.sh"
 LABELS["record"]=""
 
-COMMANDS["pass"]="pass-rofi-gui"
+COMMANDS["pass"]="rofi-pass"
 LABELS["pass"]=""
 
 COMMANDS["systemd"]="rofi-systemd"
@@ -36,12 +32,12 @@ LABELS["systemd"]=""
 COMMANDS["grub-reboot"]="rofi-grub-reboot"
 LABELS["grub-reboot"]=""
 
-# search local files
-COMMANDS["locate"]="rofi-locate.sh"
-LABELS["locate"]=""
-
-COMMANDS["files"]="rofi-files"
-LABELS["files"]=""
+# # search local files
+# COMMANDS["locate"]="rofi-locate.sh"
+# LABELS["locate"]=""
+#
+# COMMANDS["files"]="rofi-files"
+# LABELS["files"]=""
 
 # COMMANDS["json"]='rofi -modi config:"rofi-json.sh config.json","json:rofi-json.sh my_apps.json" -show json'
 # # COMMANDS["json"]='rofi -modi "json:rofi-json.sh my_apps.json" -show json'
