@@ -2,8 +2,8 @@
 
 themedir="$HOME/.config/rofi"
 themename="config"
-TMPDIR="$TMP/Records"
-DESTDIR="$HOME/Videos/Records"
+TMPDIR="$TMP/records"
+DESTDIR="${XDG_VIDEOS_DIR:-${HOME}/media/video}"/screen
 
 [[ ! -f $TMPDIR ]] && mkdir -p "$TMPDIR"
 [[ ! -f $DESTDIR ]] && mkdir -p "$DESTDIR"
